@@ -9,7 +9,7 @@ body {
   }
   
   header {
-    width:1920px;
+    position: relative;
     background-color: rgba(0,0,0,0.7);
     padding: 20px;
     text-align: center;
@@ -20,6 +20,24 @@ body {
     z-index: 1000;
     backdrop-filter: blur(10px);
   }
+  
+.catalogo-btn {
+    position: absolute;
+    top: 15px;
+    right: 70px; /* Ajusta según la posición del icono de Facebook */
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.catalogo-btn:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
   
   main {
     display: flex;
